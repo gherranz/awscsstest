@@ -3,11 +3,3 @@ os: ubuntu-latest
 files:
   - source: .
     destination: /var/www/html
-
-permissions:
-  - object: /var/www/html
-    owner: ubuntu
-    group: ubuntu
-    type:
-      - directory
-      - file
