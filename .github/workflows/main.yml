@@ -1,8 +1,0 @@
-name: CI/CD Pipeline
-on: [ push ]
-jobs:
-  continuous-integration:
-    runs-on: ubuntu-latest
-    
-    steps:      # Step 1
-      - uses: actions/checkout@v2
