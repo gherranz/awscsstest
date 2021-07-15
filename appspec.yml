@@ -4,5 +4,3 @@ files:
   - source: ./
     destination: /test
 file_exists_behavior: OVERWRITE
-
-IgnoreApplicationStopFailures: true
